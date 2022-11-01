@@ -112,3 +112,14 @@ docker logs -f ursula
 ```
 - go to https://testnet.binance.org/faucet-smart faucet BNB test
 - go to https://test-staking.nulink.org/ link meta wallet switch to chain Binance Smart Chain Testnet faucet NLK , stake --> bonder worker --> enter ip address and url eg https://161.97.73.21:9151 --> confirm
+# delete node
+```
+cd nulink
+docker kill ursula
+docker rm ursula 
+rm -rf geth-linux-amd64-1.10.24-972007a5.tar.gz
+rm -rf /root/geth-linux-amd64-1.10.24-972007a5/
+rm -rf nulink-0.1.0-py3-none-any.whl
+rm -rf nulink.venv
+cd && rm -rf /root/nulink/
+```
