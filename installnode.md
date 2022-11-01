@@ -19,8 +19,7 @@ python3 -V
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.24-972007a5.tar.gz
 tar -xvzf geth-linux-amd64-1.10.24-972007a5.tar.gz
 cd geth-linux-amd64-1.10.24-972007a5/
-./geth account new --keystore ./keystore  
-./geth account update --keystore ./keystore
+./geth account new --keystore ./keystore
 ```
 #enter password , backup public key and secret key
 # Docker install and update
