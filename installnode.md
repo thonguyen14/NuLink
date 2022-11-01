@@ -110,5 +110,5 @@ nulink/nulink nulink ursula run --no-block-until-ready
 ```
 docker logs -f ursula
 ```
-go to https://testnet.binance.org/faucet-smart faucet BNB test
-go to https://test-staking.nulink.org/ link meta wallet switch to chain Binance Smart Chain Testnet faucet NLK , stake --> bonder worker --> enter ip address and url eg https://161.97.73.21:9151 --> confirm
+- go to https://testnet.binance.org/faucet-smart faucet BNB test
+- go to https://test-staking.nulink.org/ link meta wallet switch to chain Binance Smart Chain Testnet faucet NLK , stake --> bonder worker --> enter ip address and url eg https://161.97.73.21:9151 --> confirm
